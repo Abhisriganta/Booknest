@@ -1,0 +1,42 @@
+<div class="container">
+   
+    <div class="form">
+
+        <div>
+            <h1>Escape Into the World of Books – Welcome to BookNest!</h1>
+            <h2>login to your account</h2>
+
+        </div>
+        <div>
+            <label>Email:</label>
+        <input 
+        type="email" 
+        placeholder="enter your email address" 
+        [(ngModel)]="email"
+        >
+    </div>
+   
+
+        <div>
+            <label>Password:</label>
+        <input 
+        [(ngModel)]="password" 
+        type="password" 
+        placeholder="enter your password">
+
+        </div>
+
+        <br>
+        <br>
+
+        
+        
+    <button (click)="onLogin()">Login</button>
+
+    <div>
+        <a href="/">Does not have an account?</a>
+    </div>
+   
+    </div>
+
+</div>

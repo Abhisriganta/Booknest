@@ -1,0 +1,16 @@
+<div class="container">
+
+    <marquee>
+        Welcome to Booknest
+    </marquee>
+
+        <div class="books" >
+            <div id="book" *ngFor="let i of books">
+                <img src={{i.img}} style="width: 200px;">
+                <p>{{i.title}}</p>
+                <a href={{i.src}} target="_blank">Read me</a>
+        </div>
+        </div>
+
+  <button (click)="signOut()">Logout</button> 
+</div>

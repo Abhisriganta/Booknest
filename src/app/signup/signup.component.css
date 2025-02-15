@@ -1,0 +1,61 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+   background-image: url("/assets/book.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px black;
+}
+h1{
+    color:coral;
+}
+
+h2{
+    color:rgb(44, 82, 121);
+}
+.form{
+    background-color: none;
+    border-radius: 10px;
+    width: 550px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    column-gap: 20px;
+
+}
+
+label{
+    font-size: 22px;
+    float: left;
+}
+
+input{
+    font-size: 18px;
+    border-radius: 12px;
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid black;
+    float: right;
+
+}
+
+button{
+    height: 35px;
+    width: 75px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    font-size: 18px;
+}
