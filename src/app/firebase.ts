@@ -5,7 +5,7 @@ import {getAuth} from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBPMrsisotKZl9Gt1HnBiPtIndGXMGG5S8",
+  
   authDomain: "booknest-802d4.firebaseapp.com",
   projectId: "booknest-802d4",
   storageBucket: "booknest-802d4.firebasestorage.app",
